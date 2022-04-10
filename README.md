@@ -12,7 +12,8 @@ OpenCV 4.5.2.
 
 # Features
 Configクラス：読み込む動画、保存先パス、動画→画像変換の条件などを設定。  
-save_all_frames関数：動画の全フレームを画像に変換する。※場合によっては、画像が大量に生成されるので使用前に注意。  
+save_all_frames関数：動画の全フレームを画像に変換する。  
+※場合によっては、画像が大量に生成されるので使用前に注意。  
 save_frame関数：1フレームだけ画像に変換する。  
 save_frame_range関数：start, stop, stepのフレームを指定し、任意の範囲で任意の間隔で画像に変換する。  
 save_frame_range_sec関数：start, stop, stepの時間[sec]を指定し、任意の範囲で任意の間隔で画像に変換する。  
